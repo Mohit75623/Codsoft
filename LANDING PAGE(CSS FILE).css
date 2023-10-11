@@ -1,0 +1,255 @@
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+
+.header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+.navbar {
+    text-align: center;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #fff;
+    margin: 0 20px;
+    font-weight: bold;
+}
+
+
+.hero {
+    background-image: url('https://img.freepik.com/free-psd/gamer-background-with-accessories_1419-2365.jpg?w=1060&t=st=1695274529~exp=1695275129~hmac=187dfc605fde4ec6b9ff10d18a0b12d42085b151deec9590f2da549a3983fcaa');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 100px 0;
+    color: #fff;
+}
+
+.hero h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: #ff6600;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #ff4500;
+}
+
+
+.games-section {
+    background-color: #fff;
+    padding: 50px 0;
+}
+
+.games-section h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 28px;
+}
+
+.game {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.game img {
+    max-width: 100%;
+    height: auto;
+}
+
+.game h3 {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.game-button {
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.game-button:hover {
+    background-color: #555;
+}
+
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+
+.about-section {
+    background-color: #fff;
+    padding: 50px 0;
+}
+
+.about-section h2 {
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.about-section p {
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+}
+
+
+.blog-section {
+    background-color: #f0f0f0;
+    padding: 50px 0;
+}
+
+.blog-section h2 {
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.blog-post {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.blog-post h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.blog-post p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.blog-post a {
+    text-decoration: none;
+    color: #ff6600; 
+    font-weight: bold;
+}
+
+.blog-post a:hover {
+    color: #ff4500; 
+}
+
+
+.contact-section {
+    background-color: #333;
+    color: #fff;
+    padding: 50px 0;
+}
+
+.contact-section h2 {
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.contact-section p {
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.contact-section form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.contact-section label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.contact-section input[type="text"],
+.contact-section input[type="email"],
+.contact-section textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.contact-section button[type="submit"] {
+    background-color: #ff6600;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact-section button[type="submit"]:hover {
+    background-color: #ff4500;
+}
+.logo img {
+    width: 150px;
+    height: auto;
+}
+
+.top-right-section {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 9999;
+    color: #ff6600; 
+    font-size: 16px; 
+}
+
+.top-left-images {
+    position: absolute;
+    top: 10px; 
+    left: 10px; 
+}
+
+
+.top-left-images img {
+    margin-bottom: 10px; 
+    display: block; 
+}
+
+
